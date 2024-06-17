@@ -1,9 +1,10 @@
 import React from 'react';
+import ControlledCarousel from '../components/ControlledCarousel';
 
 const HomePage = () => {
   return (
     <div>
-      <h1>Welcome to the Diet Suggestion App</h1>
+      <ControlledCarousel />
     </div>
   );
 };
