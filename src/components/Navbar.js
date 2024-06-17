@@ -10,7 +10,7 @@ const Navbar = () => {
           NUTRITRACK
         </Typography>
         <Button color="inherit" component={Link} to="/">Home</Button>
-        <Button color="inherit" component={Link} to="/dashboard">Dashboard</Button>
+        <Button color="inherit" component={Link} to="/dietplan">Dietplan</Button>
         <Button color="inherit" component={Link} to="/login">Login</Button>
       </Toolbar>
     </AppBar>

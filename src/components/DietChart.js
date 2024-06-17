@@ -3,7 +3,7 @@ import { Line } from 'react-chartjs-2';
 
 const DietChart = ({ data }) => {
   const chartData = {
-    labels: data.labels,
+    labels: 'label',
     datasets: [
       {
         label: 'Calories',
