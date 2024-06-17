@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import HomePage from './pages/HomePage';
 import LoginPage from './pages/LoginPage';
-import DashboardPage from './pages/DashboardPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import DietplanPage from './pages/DietplanPage';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -16,6 +16,7 @@ const App = () => {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/dietplan" element={<DietplanPage />} />
       </Routes>
+      <Footer />
     </Router>
   );
 };
